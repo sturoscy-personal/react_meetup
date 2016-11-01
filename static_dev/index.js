@@ -24,24 +24,7 @@ import rootReducer from './redux/reducers/index';
 let initialState = {
     events: {
         isLoading: false,
-        meetupEvent: {
-            // created: null,
-            // description: null,
-            // duration: null,
-            // group: {},
-            // id: null,
-            // link: null,
-            // name: null,
-            // rsvp_limit: null,
-            // status: null,
-            // time: null,
-            // updated: null,
-            // utc_offset: null,
-            // venue: {},
-            // visibility: null,
-            // waitlist_count: null,
-            // yes_rsvp_null: null
-        },
+        meetupEvent: {},
         results: []
     }
 };
