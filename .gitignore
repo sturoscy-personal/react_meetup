@@ -1,0 +1,84 @@
+# Yarn package related
+*.lock
+
+# Sublime Text
+*.sublime-workspace
+
+# Python bytecode:
+*.py[cod]
+
+# Packaging files:
+*.egg*
+
+# Sphinx docs:
+build
+
+# SQLite3 database files:
+*.db
+
+# Logs:
+logs/
+*.log
+
+# Eclipse
+.project
+.pydevproject
+
+# Linux Editors
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*
+*.swp
+*.swo
+
+# Mac
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Dev tools
+.idea
+.vagrant
+
+# SQLite
+*.sqlite3
+
+# Test Coverage Suite
+.coverage
+
+# projects dir
+projects/
+
+# static files
+static/
+
+# Node
+node_modules/
+npm-debug.log
+config.codekit
+
+# sqlite3
+db.sqlite3
+
+# shell scripts
+col
+make
+mig
+run
+start
+
+#shell scripts
+col
+conf
+make
+mig
+restart
+run

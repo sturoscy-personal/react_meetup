@@ -1,0 +1,6 @@
+{
+    "dev": {
+        "django_settings": "react_meetup.settings.dev", 
+        "s3_bucket": "react-meetup"
+    }
+}
