@@ -148,7 +148,7 @@ USE_L10N = True
 USE_TZ = True
 
 # Meetups API Key
-KEY = '4a8547764506f602173427f736662b'
+KEY = '[REDACTED]'
 
 # Finally grab the SECRET KEY
 from django.utils.crypto import get_random_string
@@ -157,6 +157,6 @@ SECRET_KEY = get_random_string(50, chars)
 
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
 STATICFILES_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
-AWS_ACCESS_KEY_ID = 'AKIAI65YND4GU6HZXPAA'
-AWS_SECRET_ACCESS_KEY = 'Z1aZkpl8NflDdpdqniML0uEBSLSOjqAOPQfFomEb'
+AWS_ACCESS_KEY_ID = '[REDACTED]'
+AWS_SECRET_ACCESS_KEY = '[REDACTED]'
 AWS_STORAGE_BUCKET_NAME = 'react-meetup'

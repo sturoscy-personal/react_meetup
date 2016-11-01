@@ -1,4 +1,4 @@
-const url = `${window.location.origin}/api`;
+const url = `${window.location.origin}/dev/api`;
 
 const requestEvents = () => {
     return { type: 'REQUEST_EVENTS' }
