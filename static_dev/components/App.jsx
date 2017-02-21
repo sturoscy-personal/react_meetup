@@ -12,7 +12,7 @@ class App extends React.Component {
                 <Navbar>
                     <Navbar.Header>
                         <Navbar.Brand>
-                            <Link to="/">Philly ReactJS</Link>
+                            <Link to="/">Philly PUG</Link>
                         </Navbar.Brand>
                     </Navbar.Header>
                     <Nav>

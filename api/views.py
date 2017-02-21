@@ -12,7 +12,7 @@ import logging, requests
 # Create your views here.
 class EventAPIView(viewsets.ViewSet):
     serializer_class = EventSerializer
-    url = 'https://api.meetup.com/React-Philly/events?sign=true&key=' + settings.KEY
+    url = 'https://api.meetup.com/phillypug/events?sign=true&key=' + settings.KEY
 
     def list(self, request, *args, **kwargs):
         url = request.query_params.get('url', self.url)

@@ -10,6 +10,14 @@ class Event extends React.Component {
         let dispatch = this.props.dispatch;
         dispatch(getEvent(this.props.params.eventID));
     }
+    componentDidUpdate(prevProps) {
+        let oldID = prevProps.params.eventID;
+        let newID = this.props.params.eventID;
+        if (newID !== oldID) {
+            let dispatch = this.props.dispatch;
+            dispatch(getEvent(this.props.params.eventID));
+        }
+    }
     render() {
         return (
             <div className="event">
